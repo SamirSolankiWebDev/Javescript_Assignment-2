@@ -1,5 +1,12 @@
-// WEB303 Assignment 2
 
+
+/*
+	WEB 303 Assignment 2 
+	Samir Ashok Solanki
+*/
+
+$(document).ready(function() {
+  console.log("ready!");
 
 function makeHttpRequest(param) {
   //console.log(param);
@@ -43,4 +50,6 @@ $("#retain").click(function () {
   //console.log(id);
   makeHttpRequest(id);
   $("#content").animate({top: '100px'}).fadeIn(2500);
+});
+
 });
